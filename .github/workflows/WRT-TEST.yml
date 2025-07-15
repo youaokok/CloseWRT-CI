@@ -12,8 +12,8 @@ on:
         type: choice
         options:
           - MT7981
-          - MT7986
-          - TEST
+      #    - MT7986
+       #   - TEST
       SOURCE:
         default: 'padavanonly/immortalwrt-mt798x-6.6'
         required: true
