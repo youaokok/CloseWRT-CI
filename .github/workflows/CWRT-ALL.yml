@@ -4,8 +4,8 @@ name: CWRT-ALL
 #CI计划
 on:
   #自动编译：早上6点
-  schedule:
-    - cron: 0 22 * * 0
+ # schedule:
+ #   - cron: 0 22 * * 0
   #手动编译
   workflow_dispatch:
     inputs:
@@ -34,10 +34,10 @@ jobs:
         uses: ophub/delete-releases-workflows@main
         with:
           gh_token: ${{secrets.GITHUB_TOKEN}}
-          delete_releases: true
+          delete_releases: 0
           releases_keep_latest: 0
           delete_tags: true
-          delete_workflows: true
+          delete_workflows: 0
           workflows_keep_day: 0
 
   config:
