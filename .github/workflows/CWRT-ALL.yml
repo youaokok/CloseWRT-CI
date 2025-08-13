@@ -49,9 +49,9 @@ jobs:
       matrix:
         CONFIG: [MT7981]
         REPO_INFO:
-          - {SOURCE: "youaokok/immortalwrt-mt798x-6.6", BRANCH: "openwrt-24.10-6.6"}
+          - {SOURCE: "padavanonly/immortalwrt-mt798x-6.6", BRANCH: "openwrt-24.10-6.6"}
 
-    #调用公用编译核心WRT-CORE.yml
+    #调用公用编译核心WRT-CORE.yml   padavanonly/immortalwrt-mt798x-6.6
     uses: ./.github/workflows/WRT-CORE.yml
     with:
       #编译配置
