@@ -1,5 +1,5 @@
 #科学插件调整
-#CONFIG_PACKAGE_luci-app-homeproxy=y
+CONFIG_PACKAGE_luci-app-homeproxy=y
 #增加插件
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-gecoosac=y
@@ -9,7 +9,7 @@ CONFIG_PACKAGE_luci-app-samba4=y
 CONFIG_PACKAGE_luci-app-tailscale=y
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-wolplus=y
-#CONFIG_PACKAGE_luci-app-dockerman=y
+CONFIG_PACKAGE_luci-app-dockerman=y
 #删除插件
 CONFIG_PACKAGE_luci-app-wol=n
 CONFIG_PACKAGE_iptables-nft=y
@@ -22,7 +22,7 @@ CONFIG_TARGET_MULTI_PROFILE=y
 CONFIG_TARGET_PER_DEVICE_ROOTFS=y
 #内核调整
 #CONFIG_PACKAGE_sing-box=y
-#CONFIG_PACKAGE_dockerd=y
+CONFIG_PACKAGE_dockerd=y
 CONFIG_PACKAGE_node=y
 CONFIG_PACKAGE_kmod-fuse=y
 CONFIG_PACKAGE_kmod-mtd-rw=y
@@ -376,6 +376,7 @@ CONFIG_PACKAGE_kmod-md-raid1=y
  CONFIG_PACKAGE_kmod-ipt-conntrack=y
  CONFIG_PACKAGE_kmod-nf-conntrack6=y
  CONFIG_PACKAGE_kmod-ipt-fullconenat=y
+
 
 
 
