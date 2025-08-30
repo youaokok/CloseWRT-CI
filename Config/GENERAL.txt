@@ -1,5 +1,5 @@
 #科学插件调整
-CONFIG_PACKAGE_luci-app-homeproxy=y
+#CONFIG_PACKAGE_luci-app-homeproxy=y
 #增加插件
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-gecoosac=y
@@ -21,6 +21,7 @@ CONFIG_DEVEL=y
 CONFIG_TARGET_MULTI_PROFILE=y
 CONFIG_TARGET_PER_DEVICE_ROOTFS=y
 #内核调整
+#CONFIG_PACKAGE_sing-box=y
 #CONFIG_PACKAGE_dockerd=y
 CONFIG_PACKAGE_node=y
 CONFIG_PACKAGE_kmod-fuse=y
@@ -356,7 +357,6 @@ CONFIG_PACKAGE_kmod-md-mod=y
 CONFIG_PACKAGE_kmod-md-raid0=y 
 CONFIG_PACKAGE_kmod-md-raid10=y 
 CONFIG_PACKAGE_kmod-md-raid1=y 
-CONFIG_PACKAGE_sing-box=y
 # docker依赖
  CONFIG_PACKAGE_kmod-fs-btrfs=y
  CONFIG_PACKAGE_kmod-ipt-core=y
@@ -376,6 +376,7 @@ CONFIG_PACKAGE_sing-box=y
  CONFIG_PACKAGE_kmod-ipt-conntrack=y
  CONFIG_PACKAGE_kmod-nf-conntrack6=y
  CONFIG_PACKAGE_kmod-ipt-fullconenat=y
+
 
 
 
