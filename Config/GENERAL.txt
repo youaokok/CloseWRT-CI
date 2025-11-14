@@ -10,8 +10,8 @@ CONFIG_PACKAGE_luci-app-tailscale=y
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-wolplus=y
 CONFIG_PACKAGE_luci-app-dockerman=y
-CONFIG_PACKAGE_luci-app-store=y
-CONFIG_PACKAGE_luci-app-istorex=y
+# CONFIG_PACKAGE_luci-app-store=y
+# CONFIG_PACKAGE_luci-app-istorex=y
 #删除插件
 CONFIG_PACKAGE_luci-app-wol=n
 CONFIG_PACKAGE_iptables-nft=y
@@ -380,6 +380,7 @@ CONFIG_PACKAGE_kmod-md-raid1=y
  CONFIG_PACKAGE_kmod-ipt-conntrack=y
  CONFIG_PACKAGE_kmod-nf-conntrack6=y
  CONFIG_PACKAGE_kmod-ipt-fullconenat=y
+
 
 
 
