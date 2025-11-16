@@ -47,7 +47,7 @@ jobs:
       WRT_CONFIG: ${{inputs.CONFIG}}
       #默认主题
    #   WRT_THEME: argon
-      WRT_THEME: aurora
+   #   WRT_THEME: aurora
       #默认主机名
       WRT_NAME: CWRT
       #默认WIFI名称
