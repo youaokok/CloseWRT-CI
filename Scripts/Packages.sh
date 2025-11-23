@@ -48,7 +48,7 @@ UPDATE_PACKAGE() {
 UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
 # UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "js"
 #UPDATE_PACKAGE "aurora" "eamonxg/luci-theme-aurora" "master"
-UPDATE_PACKAGE "luci-app-unblockmusic" "/kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-unblockmusic" "/kenzok8/small-package" "main" "" "luci-app-unblockmusic"
 
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
